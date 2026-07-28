@@ -58,3 +58,33 @@ DIGIT-RECOGNIZER/
 - Restores generalization while maintaining high performance
 
 ---
+
+## 📦 Pre-trained Models
+
+The trained model weights (`.pth` files) are hosted on Google Drive.
+
+**Download all model checkpoints here:**
+
+**Google Drive:**  
+https://drive.google.com/drive/folders/130o0s8O_wYM30UXNtRfdtryQQ9Wq4_G0?usp=sharing
+
+The folder contains:
+
+- `baseline_mnist_model.pth`
+- `overfitted_mnist_model.pth`
+- `recovered_mnist_model.pth`
+
+After downloading, place each model file inside its corresponding project folder:
+
+```text
+First-best-model/
+└── baseline_mnist_model.pth
+
+Second-overfit-model/
+└── overfitted_mnist_model.pth
+
+Third-recovered-model/
+└── recovered_mnist_model.pth
+```
+
+---
